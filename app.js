@@ -17,6 +17,6 @@ router.get('/', function(req,res){
 app.use(express.static(path));
 app.use('/', router);
 
-app.listen(port, function () {
+app.listen(port || 5000, function () {
   console.log('Docker demo app listening on port 8080!')
 });
