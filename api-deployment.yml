@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-docker-deployment
+  labels:
+    app: node-docker-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: node-docker
+  template:
+    metadata:
+      labels:
+        app: node-docker
+    spec:
+      containers:
+      - name: node-docker
+        image: dockerplay28/node_docker:1.0.0
+        ports:
+        - containerPort: 3000

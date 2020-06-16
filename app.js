@@ -18,5 +18,5 @@ app.use(express.static(path));
 app.use('/', router);
 
 app.listen(port, function () {
-  console.log('Docker demo  app listening on port 8080!')
+  console.log('Docker demo app listening on port 8080!')
 });

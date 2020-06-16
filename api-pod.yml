@@ -1,0 +1,15 @@
+#dockerplay28/node_docker
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: node-docker
+  labels:
+    name: node-docker
+spec:
+  containers:
+  - name: node-docker
+    image: dockerplay28/node_docker:1.0.0
+    ports:
+    - containerPort: 3000
+
