@@ -1,11 +1,17 @@
-Clone simple node project in your local system
+## Clone simple node project in your local system
 
+```bash
 $ https://github.com/TpPrachi/docker_node.git
+```
 
-Instaall node packages
+## Instaall node packages
 
+```bash
 $ npm install
+```
 
-Run Node Application
+## Run Node Application
 
+```bash
 $ node app.js
+```
