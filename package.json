@@ -5,6 +5,9 @@
   "author": "Node Docker <dockerplay@example.com>",
   "license": "MIT",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/TpPrachi/docker_node.git"
